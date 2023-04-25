@@ -1,0 +1,181 @@
+/*GENERAL STYLES*/
+body {
+    font-size: 100%;
+    font-family: MyriadPro;
+   
+}
+
+/*HEADER*/
+.header {
+    height: 90px;
+    background-color: #8ab50a;
+}
+
+.header h1 {
+    font-size: 50px;
+    color: white;
+    padding: 10px 20px 30px 20px;
+    font-family: HelveticaNeueLTPro;
+    
+
+}
+
+h1 span {
+    font-weight: bold;
+    color: white;
+}
+/*NAVIGATION*/
+.container {
+    min-height: 30px;
+    background-color: white;
+    padding: 30px 30px 30px 30px;
+}
+
+.container ul li:hover {
+    color: #8ab50a;
+    cursor: pointer;
+ }
+
+
+.images {
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+    
+       
+}
+.images img {
+    margin-right: 140px;
+}
+
+/*MAIN*/
+.main-images {
+    margin-left: 60px;
+}
+
+h2 {
+    font-size: 40px; 
+    padding: 30px 30px 5px 30px;
+    padding-left: 10px;
+    font-family: HelveticaNeueLTPro;
+}
+
+b {
+    font-weight: bold;
+}
+
+.p1 {
+    color: #8ab50a;
+    text-indent: 0em; 
+}
+
+.maim-page-row {
+    display: flex;
+    background: #eff1fc;
+}
+
+.maim-page-row:hover {
+    cursor: pointer;
+ }
+
+.maim-page-column {
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    padding-left: 3em;
+    margin-top: 5px;
+}
+
+/*SECTION*/
+.container2 {
+    width: 40%;
+    padding: 10px 10px 30px 10px;   
+}
+
+.container2:hover { 
+    cursor: pointer;
+}
+
+.p2 {
+    font-size: 20px;
+    padding-left: 2.5em;
+    font-family: Tahoma;
+}
+
+p span {
+    color: #8ab50a;
+}
+
+.vl {
+    border-left: 3px solid #f0f3fe;
+   
+}
+
+.vl {
+    height: 250px;
+    position: absolute;
+    border-left: 2px solid #f0f3fe;
+    left: 50%;
+    margin-left: -300px;
+    top: 390px;
+}
+
+.main-image2 {
+    margin-left: 40px;
+}
+
+.Researchers {
+    display: flex;
+    justify-content: center;
+    margin-top: -275px;
+}
+
+.Researchers:hover {
+    cursor: pointer;
+} 
+
+.p3 {
+    font-size: 20px; 
+    padding-left: 2.5em;
+    margin-top: 5px;
+     
+}
+
+hr {
+    width: 1000px;
+    margin-right: 40px;
+    border-color: #f0f3fe;
+    border-style: solid;
+}
+  
+.Services {
+    display: flex;
+    justify-content: center;  
+}
+
+.Services:hover {
+    cursor: pointer;
+}
+
+.p4 {
+    padding-left: 2.5em;
+    margin-top: 5px;
+    font-size: 20px;  
+}
+
+.main-image3 {
+    padding-left: 39px;
+}
+ 
+.hr2 {
+    width: 100%;
+    border-color: #f0f3fe;
+    border-style: solid;
+    border-width: 4px;
+}
+
+.end {
+    padding: 15px 20px 30px 55px; 
+}
