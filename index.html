@@ -2,144 +2,123 @@
 <html>
 <head>
    <meta charset="UTF-8"/>
-   <title>My first Project</title>
+   <title>Science Lab</title>
 
    <link rel="stylesheet" href="./css/reset.css">
    <link rel="stylesheet" href="./css/style.css">
+   <link rel="stylesheet" href="./font/stylesheet">
+
 </head>
-<body>
-<!--HEADER-->
-   <header class="header">
-      <div>
-         <h1>
-            Science <span>Lab</span>
+<body class="content-wrapper flex">
+   <header class="header flex">
+      <a href="/">
+         <h1 class="logo"> 
+            Science <span class="bold">Lab</span>
          </h1>
-      </div>
+      </a>
    </header>
- <!--/HEADER-->  
- <!--NAVIGATION-->
-   <nav class="container">
-      <div>
-         <ul>
-            <div class="images"> 
-               <li>
-                     home
-               </li>
-               <li>
-                  <img src="img/arrow.png" 
-                       href="arrow.png"
-                  >
-                     about us
-               </li>
-               <li>
-                  <img src="img/arrow.png" 
-                       href="arrow.png"
-                  >
-                     researchers
-               </li>
-               <li>
-                  <img src="img/arrow.png" 
-                       href="arrow.png"
-                  >
-                     services
-               </li>
-               <li>
-                  <img src="img/arrow.png" 
-                       href="arrow.png"
-                  >
-                     contacts
-               </li>
-            </div>
-         </ul>
-      </div>
+   <nav class="navigation flex">
+      <ul class="navigation-list flex">
+         <li class="navigation-item">
+            <span class="navigation-item-text"> 
+               home
+            </span>
+         </li>
+         <li class="navigation-item">
+            <span class="navigation-item-text"> 
+               about us
+            </span>
+         </li>
+         <li class="navigation-item">
+            <span class="navigation-item-text"> 
+               researchers
+            </span>
+         </li>
+         <li class="navigation-item">
+            <span class="navigation-item-text"> 
+               services
+            </span>
+         </li>
+         <li class="navigation-item">
+            <span class="navigation-item-text"> 
+               contacts
+            </span>
+         </li>
+      </ul>
    </nav>
-<!--/NAVIGATION-->
-<!--MAIN-->
-   <main> 
-      <div class="maim-page-row"> 
-         <img src="./img/img.png" 
-              alt="img.png" 
-              class="main-images"
+   <main class="main-flex"> 
+      <div class="main-picture">
+         <img class="main-image" src="./img/img.png" 
+            alt="img.png" 
          >
-         <div class="maim-page-column"> 
-            <h2>
-               Welcome to our <b>Lab</b>
-            </h2>
-      <br />
-            <p class="p1">
-               Ea consetetur sadi consetetur
-            </p>
-            <p>
-               consetetur pscing elitr, sed diam lorem nonumy eirmod Erat, sed diam<br>voluptua. Dolores et ea consetetur sadi pscing elitr onumy eirmod Erat,<br>sed diam voluptua. Dolores et ea consetetur sadi pscing elitr onumy<br>eirmod Erat, sed diam voluptua. 
-               <img src="./img/arrig.png" href="arrig">
-            </p>
-         </div>
+      </div>
+      <div class="maim-items"> 
+         <h2 class="logo-main">
+            Welcome to our <span class="bold">Lab</span>
+         </h2>
+         <p class="main-text">
+            <span class="main-color-text">Ea consetetur sadi consetetur</span><br>
+            consetetur pscing elitr, sed diam lorem nonumy eirmod Erat, sed diam voluptua. Dolores et ea consetetur sadi pscing elitr onumy eirmod Erat, sed diam voluptua. Dolores et ea consetetur sadi pscing elitr onumy eirmod Erat, sed diam voluptua. 
+            <img src="./img/arrig.png" alt="arrig">
+         </p>
       </div>
    </main>
-<!--/MAIN-->
-<!--SECTION-->
-   <section> 
-         <div class="container2">
-            <p class="p2">
-               About our Lab
-            <p>
-      <br />
-            <p>
-               <span>Ea consetetur sadi consetetur</span><br>consetetur pscing elitr, sed diam lorem<br>nonumy eirmod
-            </p>
-      <br />
-            <p>
-               Erat, sed diam voluptua. Dolores et ea<br>consetetur sadi pscing elitr onumy eirmod
-            </p>
-      <br />
-            <p>
-               Erat, sed diam voluptua. Dolores et ea<br>consetetur sadi pscing elitr onumy eirmod<br>Erat, sed diam voluptua. Erat, sed diam<br>voluptua. Dolores et ea consetetur sadi pscing<br>elitr onumy eirmod 
-               <img src="./img/arrig.png" href="arrig">    
-            </p>
+   <section class="section-flex">
+      <div class="section-items">
+         <p class="section-subtitle">
+            About our Lab
+         </p>
+         <p> 
+            <span class="main-color-text">Ea consetetur sadi consetetur</span><br>consetetur pscing elitr, sed diam lorem nonumy eirmod
+         </p>
+         <br />
+         <p> 
+            Erat, sed diam voluptua. Dolores et ea consetetur sadi pscing elitr onumy eirmod
+         </p>
+         <br />
+            Erat, sed diam voluptua. Dolores et ea consetetur sadi pscing elitr onumy eirmod Erat, sed diam voluptua. Erat, sed diam voluptua. Dolores et ea consetetur sadi pscing elitr onumy eirmod  
+            <img src="./img/arrig.png" alt="arrig">  
+      </div>
+      <div class="vertical-middle-line"></div>
+      <div class="section-flex-item"> 
+      <div class="section-researchers">
+      <div class="image-box">
+         <img src="./img/doctor.jpg"
+               alt="doctor"
+               class="my-img"
+            />
+      </div>
+      <div class="subtitle-items">
+         <p class="section-subtitle">
+            Researchers
+         </p>
+         <p>
+            <span class="main-color-text">Ea consetetur sadi consetetur</span><br>consetetur pscing elitr, sed diam lorem nonumy<br>eirmod Erat, sed diam voluptua. Dolores et ea<br>consetetur sadi pscing elitr onumy eirmod
+         </p>
          </div>
-         <div class="vl"></div>
-         <div class="Researchers">
-               <img src="./img/doctor.jpg"
-                    href="doctor"
-                    class="main-image2"
-               >
-         <div class="maim-page-column2">
-            <p class="p3">
-               Researchers
-            </p>
-      <br />
-            <p>
-               <span>Ea consetetur sadi consetetur</span><br>consetetur pscing elitr, sed diam lorem nonumy<br>eirmod Erat, sed diam voluptua. Dolores et ea<br>consetetur sadi pscing elitr onumy eirmod
-            </p>
-         </div>
-         </div>
-      <br />
-         <hr>
-      <br />
-         <div class="Services">
-               <img src="img/lens.png"
-                  href="lens"
-                  class="main-image3"
-            >
-         <div class="maim-page-column3">
-            <p class="p4">
-               Services
-            </p>
-      <br />
-            <p>
-               <span>Lorem sadi consetetur</span><br>consetetur pscing elitr, sed diam lorem nonumy<br>eirmod Erat, sed diam voluptua. Dolores et ea<br>consetetur sadi pscing elitr onumy eirmod
-            </p>
-         </div>
-         </div>
-   </section>
-<!--/SECTION-->  
-<!--FOOTER-->
+      </div>
+      <hr class="middle-line">
+      <div class="section-services">
+      <div class="image-box"> 
+         <img src="img/lens.png"
+            alt="lens"
+            class="main-img2"
+         />
+      </div>
+      <div class="subtitle-items">
+         <p class="section-subtitle">
+            Services
+         </p>
+            <span class="main-color-text">Lorem sadi consetetur</span><br>consetetur pscing elitr, sed diam lorem nonumy<br>eirmod Erat, sed diam voluptua. Dolores et ea<br>consetetur sadi pscing elitr onumy eirmod
+      </div>
+      </div>
+      </div>
+   </section>  
    <footer> 
-         <hr class="hr2"> 
-            <p class="end">
-               copyright © Your Company Name
-            </p>
+      <hr class="footer-line"> 
+         <p class="footer-text">
+            copyright © Your Company Name
+         </p>
    </footer>
-<!--/FOOTER-->  
 </body>
 </html>
