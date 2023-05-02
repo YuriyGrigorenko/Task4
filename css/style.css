@@ -150,6 +150,11 @@
    border-bottom: 1px solid #eeeefb;
 }
 
+.image-box-doctor {
+    min-width: 145px;
+    height: 95px;
+}
+
 .subtitle-items {
     padding: 0px 0px 0px 20px;
     letter-spacing: -0.2px;
@@ -164,6 +169,11 @@
 .section-services {
     display: flex;
     padding: 0px 20px 0px 0px;
+}
+
+.image-box-lens {
+    min-width: 145px;
+    height: 95px;
 }
 
 .footer-section {
