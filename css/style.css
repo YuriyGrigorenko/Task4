@@ -1,37 +1,40 @@
 
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 .flex {
     display: flex;
 }
 
 .content-wrapper {
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
+    font-family: Montserrat;
 }
 
 .header {
     align-items: center;
     width: 673px;
-    height: 70px;
-    padding: 0 33px 10px;
+    height: 80px;
+    padding: 0 34px 10px;
     background-color: #8ab50a;
 }
 
 .logo {
-    font-weight: 100;
     font-size: 35px;
+    font-weight: 100;
     color: white;
 }
 
 .bold {
-    font-family: 'Tahoma', sans-serif;
     font-weight: bold;
 }
 
 .navigation {
     align-items: center;
-    width: 640px;
+    width: 673px;
     height: 80px;
-    padding: 1px;
+    padding: 0px 31px 0 31px;
+    font-size: 10px;
 }
 
 .navigation-list {
@@ -46,31 +49,44 @@
 
 .navigation-item:not(:last-child)::after {
     content: url(../img/arrow.png);
-    margin-left: 30px;
+    margin-left: 15px;
 }
 
 .navigation-item-text {
     font-size: 20px;
-    font-family: Tahoma;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.2px;
 }
 
 .main-flex {
-    width: 674px;
-    height: 200px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    width: 674px;
+    height: 200px;
     background-color: #eeeefb;
+}
+
+.main-picture {
+    width: 320px;
+    padding-left: 27px;
 }
   
 .maim-items {
-    font-size: small;
+    position: relative;
+    padding-top: 55px;
+    padding-left: -2px;
+    font-size: 10px;
+    line-height: 1.5;
 }
   
 .logo-main {
-    font-size: 40px;
+    position: absolute;
+    left: -37px;
+    top: -13px;
+    font-size: 35px;
     padding: 5px 9px 25px 0px;
+    letter-spacing: -1.9px;
+    font-weight: 200;
 }
 
 .logo-main span.bold {
@@ -81,91 +97,83 @@
     cursor: pointer;
 }
 
-.main-text {
-    line-height: 1.3;
-}
-
-.main-color-text {
+.main-paragraph::first-line {
     color: #8ab50a;
 }
   
 .section-flex {
     display: flex;
-    width: 674px;
+    width: 673px;
     height: 250px;
+    padding-top: 18px;
 }
 
 .section-items {
-    width: 245px;
-    font-size: small;
-    letter-spacing: -0.3px;
-    padding: 18px 0 0 15px; 
+    width: 523px;
+    padding: 0px 12px 0 24px;
+    border-right: 1px solid #eeeefb;
+    font-size: 10px;
+    line-height: 1.5;
 }
 
 .section-subtitle {
+    padding: 0px 3px;
     font-size: 20px;
-    padding: 5px 3px;
+}
+
+.section-paragraph::first-line {
+    color: #8ab50a;
+}
+
+.paragraph1 {
+    margin-top: 1em;
+}
+
+.paragraph2 {
+    margin-top: 1em;
 }
 
 .section-subtitle:hover{
     cursor: pointer;
 }
 
-.vertical-middle-line {
-    width: 0.8px;
-    height: 210px;
-    background-color: #eeeefb;
-    margin: 0 auto;
-    position: absolute;
-    top: 370px;
-    right: 850px;
-}
-
 .section-flex-item {
-    font-size: small;
     padding: 20px 0 10px 30px;
+    font-size: 10px;
 }
 
 .section-researchers {
    display: flex;
-   padding: 0 0 5px 0;
+   padding: 0px 42px 15px 0;
+   margin-top: -17px;
+   margin-bottom: 20px;
+   border-bottom: 1px solid #eeeefb;
 }
 
 .subtitle-items {
-    padding: 0px 0px 0px 17px;
-    letter-spacing: -0.3px;
+    padding: 0px 0px 0px 20px;
+    letter-spacing: -0.2px;
+    line-height: 1.2;
 }
 
 .section-subtitle {
-    font-size: 20px;
     padding: 2px 0 12px 0;
-}
-
-.middle-line {
-    width: 410px;
-    background-color: #eeeefb;
-    border-style: solid;
-    border-width: 0px;
-    height: 1px;
-    margin-left: -5px;
+    font-size: 20px;
 }
 
 .section-services {
     display: flex;
-    padding: 5px 0 0 0;
+    padding: 0px 20px 0px 0px;
 }
 
-.footer-line {
-    width: 670px;
-    height: 5px;
-    background-color: #eeeefb;
-    border-style: solid;
-    border-width: 0px;
-    margin-top: 23px;
+.footer-section {
+    width: 673px;
+    margin-top: 18px;
+    border-bottom: 5px solid #eeeefb;
 }
 
 .footer-text {
-    padding: 10px 22px;
-    font-size: small;
-    letter-spacing: -0.3px;
+    padding: 27px;
+    font-size: 10px;
+    letter-spacing: -0.5px;
 }
